@@ -1,6 +1,6 @@
 function testar(){
     let inputOG = document.getElementById("palindromo").value;
-    input = inputOG.replaceAll(" ","");
+    let input = inputOG.replaceAll(" ","");
     let inputCorreto=input.toUpperCase();
     
     const palavra=inputCorreto.split('');
